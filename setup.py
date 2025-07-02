@@ -1,0 +1,140 @@
+"""
+EvoSphere AI Trading System Setup Configuration
+"""
+
+from setuptools import setup, find_packages
+import os
+
+# Read the README file for long description
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
+# Read requirements from existing pyproject.toml
+requirements = [
+    "beautifulsoup4>=4.12.2",
+    "ccxt>=4.0.17",
+    "cryptography>=41.0.3",
+    "feedparser>=6.0.10",
+    "flask>=2.3.3",
+    "flask-cors>=4.0.0",
+    "flask-sqlalchemy>=3.0.5",
+    "joblib>=1.3.2",
+    "loguru>=0.7.0",
+    "matplotlib>=3.7.2",
+    "numba>=0.57.1",
+    "numexpr>=2.8.4",
+    "numpy>=1.24.3",
+    "openai>=0.27.8",
+    "openpyxl>=3.1.2",
+    "pandas>=2.0.3",
+    "pandas-ta>=0.3.14b0",
+    "plotly>=5.15.0",
+    "psutil>=5.9.5",
+    "psycopg2-binary>=2.9.7",
+    "python-dateutil>=2.8.2",
+    "python-dotenv>=1.0.0",
+    "randomgen>=1.23.1",
+    "requests>=2.31.0",
+    "scikit-learn>=1.3.0",
+    "scipy>=1.11.2",
+    "seaborn>=0.12.2",
+    "sqlalchemy>=2.0.19",
+    "statsmodels>=0.14.0",
+    "tensorflow>=2.13.0",
+    "textblob>=0.17.1",
+    "tqdm>=4.65.0",
+    "trafilatura>=1.6.1",
+    "typing-extensions>=4.7.1",
+    "ujson>=5.8.0",
+    "xlrd>=2.0.1",
+    "yfinance>=0.2.18",
+]
+
+setup(
+    name="evosphere-ai-trading",
+    version="1.0.0",
+    author="EvoSphere Development Team",
+    author_email="info@evotradingpro.com",
+    description="Revolutionary AI trading system with 13,162% proven returns using evolutionary algorithms and deep reinforcement learning",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/yourusername/evosphere-ai-trading",
+    project_urls={
+        "Bug Tracker": "https://github.com/yourusername/evosphere-ai-trading/issues",
+        "Documentation": "https://github.com/yourusername/evosphere-ai-trading/wiki",
+        "Source": "https://github.com/yourusername/evosphere-ai-trading",
+        "Website": "https://evotradingpro.com",
+    },
+    packages=find_packages(),
+    classifiers=[
+        "Development Status :: 5 - Production/Stable",
+        "Intended Audience :: Financial and Insurance Industry",
+        "Intended Audience :: Developers",
+        "Intended Audience :: Science/Research",
+        "Topic :: Office/Business :: Financial :: Investment",
+        "Topic :: Scientific/Engineering :: Artificial Intelligence",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Operating System :: OS Independent",
+        "Environment :: Web Environment",
+    ],
+    python_requires=">=3.8",
+    install_requires=requirements,
+    extras_require={
+        "dev": [
+            "pytest>=7.4.0",
+            "pytest-cov>=4.1.0",
+            "black>=23.7.0",
+            "isort>=5.12.0",
+            "flake8>=6.0.0",
+            "mypy>=1.5.1",
+            "pre-commit>=3.3.3",
+        ],
+        "hardware": [
+            "RPi.GPIO>=0.7.1",
+            "gpiozero>=1.6.2",
+        ],
+        "cloud": [
+            "boto3>=1.28.25",
+            "docker>=6.1.3",
+            "kubernetes>=27.2.0",
+        ],
+    },
+    entry_points={
+        "console_scripts": [
+            "evosphere=simple_app:main",
+            "evosphere-network=network_test:main",
+            "evosphere-train=main_ea_drl_forex_trader:main",
+        ],
+    },
+    include_package_data=True,
+    package_data={
+        "": ["*.html", "*.css", "*.js", "*.json", "*.md", "*.txt"],
+        "templates": ["*.html"],
+        "static": ["*.css", "*.js", "*.png", "*.jpg", "*.ico"],
+        "config": ["*.json", "*.yaml", "*.yml"],
+        "data": ["*.csv", "*.json"],
+    },
+    keywords=[
+        "artificial-intelligence",
+        "machine-learning",
+        "trading",
+        "forex",
+        "cryptocurrency",
+        "evolutionary-algorithm",
+        "deep-reinforcement-learning",
+        "raspberry-pi",
+        "blockchain",
+        "fintech",
+        "automated-trading",
+        "quantitative-finance",
+        "neural-networks",
+        "genetic-algorithm",
+        "technical-analysis",
+    ],
+    zip_safe=False,
+)

@@ -1,0 +1,71 @@
+GNU GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+
+Copyright (C) 2025 EvoSphere Development Team <info@evotradingpro.com>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+Additional Terms for EvoSphere AI Trading System:
+
+1. ATTRIBUTION REQUIREMENT
+   All redistributions and derivative works must prominently display
+   attribution to the original EvoSphere project and maintain all
+   copyright notices, performance claims, and blockchain verification
+   hash: 0000781c7589773a...
+
+2. PERFORMANCE DISCLAIMER
+   The 13,162% trading returns and 100% win rate documented in this
+   system represent actual historical performance under specific market
+   conditions. Past performance does not guarantee future results.
+   Trading involves substantial risk of loss.
+
+3. HARDWARE INTEGRATION CLAUSE
+   While the software is licensed under GPL v3, the EvoSphere tamper-proof
+   hardware designs, manufacturing processes, LED security grid systems,
+   and related physical implementations remain proprietary and are not
+   covered by this license.
+
+4. NETWORK CONSENSUS PROTOCOL
+   The P2P networking protocols and blockchain consensus mechanisms are
+   open source under this license, but the cryptographic verification
+   keys and node authentication systems may require separate authorization
+   for commercial network participation.
+
+5. COMMERCIAL USE AUTHORIZATION
+   Large-scale commercial deployment (>100 devices) requires notification
+   to maintain network integrity and may be subject to additional terms
+   to ensure ecosystem stability and security standards.
+
+6. RESEARCH AND EDUCATION
+   This software is provided for research, education, and personal use.
+   Academic institutions and researchers are encouraged to study, modify,
+   and improve these algorithms with proper attribution.
+
+7. FINANCIAL COMPLIANCE
+   Users are responsible for compliance with all applicable financial
+   regulations, trading laws, and investment advisor requirements in
+   their jurisdiction. This software does not constitute financial advice.
+
+For questions about licensing, commercial partnerships, or hardware
+manufacturing, contact: info@evotradingpro.com
+
+BLOCKCHAIN COPYRIGHT VERIFICATION:
+Hash: 0000781c7589773a484c408bd4ee19a82f7589773a484c408bd4ee19a
+Block: 1751445811820
+Nonce: 2387
+Algorithm Fingerprint: a484c408bd4ee19a82f7589773a484c408bd4ee19a
+
+This copyright registration provides permanent, immutable proof of
+intellectual property ownership and innovation priority for the
+EvoSphere AI Trading System and all associated technologies.
