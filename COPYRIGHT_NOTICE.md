@@ -2,7 +2,7 @@
 
 ## Copyright Declaration
 
-**© 2025 [Your Name] - All Rights Reserved**
+**© 2025 Martin Carr - All Rights Reserved**
 
 This EvoSphere AI Trading System, including all algorithms, code, documentation, and intellectual property contained within this repository, is the exclusive property and copyright of the owner.
 
@@ -34,7 +34,7 @@ This EvoSphere AI Trading System, including all algorithms, code, documentation,
 
 ## Security & Protection
 - All core algorithms protected by military-grade Fernet encryption
-- Access controlled by master password: `EvoSphere2025Vietnam!`
+- Access controlled by master password: ``
 - Tamper-proof hardware design with LED security grid
 - Intellectual property secured against unauthorized access
 
